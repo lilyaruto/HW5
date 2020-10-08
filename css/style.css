@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 85px;
+    font-size: 16px;
+}
+
+img {
+    width: 369px;
+    height: 361px;
+    border-radius: 10px;
+}
+
+.counter {
+    position: absolute;
+    width: 82px;
+    height: 42px;
+    background-color: #e7434e;
+    border-radius: 8px;
+    top: 30px;
+    left: 45px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.boat {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.number {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+}
+
+.info {
+    position: absolute;
+    left: 45px;
+    bottom: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.country {
+    font-size: 20px;
+}
+
+.portugal-img {
+    width: 775px;
+}
+
+.row {
+    margin: 0 -18px;
+}
+
+.col-6, .col-4 {
+    float: left;
+    padding: 0 18px;
+    position: relative;
+}
+
+.col-4 {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 33.333%;
+}
+
+.button {
+    width: 310px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    border: 2px solid #cccccc;
+    margin: 0 auto;
+}
